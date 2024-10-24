@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#FF5722"
+    tools:context=".Starter_page">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="90dp"
+        android:src="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="142dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="523dp"
+        android:layout_marginEnd="105dp"
+        android:backgroundTint="#FFB74D"
+        android:text="Log In"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="103dp"
+        android:backgroundTint="#FFB74D"
+        android:text="Sign up"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/placeholder_text"
+        android:layout_width="352dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="425dp"
+        android:gravity="center"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+</RelativeLayout>
